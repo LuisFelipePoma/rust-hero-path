@@ -60,7 +60,6 @@ Level 5: Systems and Unsafe Rust       -> 2 projects
 |---|---------|---------------|
 | 12 | [kv-store](./12-kv-store) | Binary storage, B-trees, WAL |
 | 13 | [task-runner](./13-task-runner) | YAML parsing, DAGs, topological sort |
-| 14 | [notes-app](./14-notes-app) | CRUD operations, full-text search, interactive CLI |
 
 **You will practice**: serialization, state management, data modeling.
 
@@ -70,8 +69,8 @@ Level 5: Systems and Unsafe Rust       -> 2 projects
 
 | # | Project | Core Concepts |
 |---|---------|---------------|
-| 15 | [chip8-emulator](./15-chip8-emulator) | CPU emulation, timing loops, graphics |
-| 16 | [custom-allocator](./16-custom-allocator) | `GlobalAlloc`, memory management |
+| 14 | [chip8-emulator](./15-chip8-emulator) | CPU emulation, timing loops, graphics |
+| 15 | [custom-allocator](./16-custom-allocator) | `GlobalAlloc`, memory management |
 
 **You will practice**: unsafe Rust, systems programming, hardware abstraction.
 
@@ -86,8 +85,8 @@ Weeks 5-6   -> 05, 06 (concurrency and networking)
 Weeks 7-8   -> 07, 08 (larger end-to-end projects)
 Weeks 9-10  -> 09, 10 (parsing and transformation)
 Weeks 11-12 -> 11, 12, 13 (persistence)
-Weeks 13-14 -> 14 (complete application)
-Weeks 15-16 -> 15, 16 (advanced systems level)
+Weeks 13 -> 14 (complete application)
+Weeks 14-15 -> 15 (advanced systems level)
 ```
 
 ---
@@ -135,18 +134,3 @@ cargo doc --open       # Open local documentation
 > Pick 2-3 projects you genuinely care about. Interest sustains motivation when ownership errors hit late at night.
 
 Do not try to complete all 16 projects at once. It is better to finish a few projects thoroughly with tests and documentation than to leave many half done.
-
----
-
-## Contributing
-
-If you build one of these projects and want to share it:
-
-1. Publish the repository on GitHub.
-2. Add automated tests.
-3. Include documentation tests using `#[test]` and `assert!` where relevant.
-4. Publish as a crate if reusable: `cargo publish`.
-
----
-
-*Last updated: April 2026*

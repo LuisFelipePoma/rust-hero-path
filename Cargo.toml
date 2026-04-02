@@ -1,0 +1,2 @@
+[workspace]
+members = ["c01-wc-clone", "c02-grep-clone", "c03-password-generator", "c04-rpn-calculator", "c05-chat-tcp", "c06-http-server", "c07-web-scrapper", "c08-file-watcher", "c09-csv-tool", "c10-md2html", "c11-image-processor", "c12-kv-store", "c13-task-runner", "c14-chip8-emulator", "c15-custom-allocator"]
